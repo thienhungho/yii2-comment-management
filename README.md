@@ -71,14 +71,14 @@ Add module CommentManage to your `AppConfig` file.
 Modules
 ------------
 
-[TermBase](https://github.com/thienhungho/yii2-term-management/tree/master/src/modules/TermBase), [TermManage](https://github.com/thienhungho/yii2-term-management/tree/master/src/modules/TermManage)
+[CommentBase](https://github.com/thienhungho/yii2-comment-management/tree/master/src/modules/CommentBase), [CommentManage](https://github.com/thienhungho/yii2-comment-management/tree/master/src/modules/CommentManage)
 
 Functions
 ------------
 
-[Core](https://github.com/thienhungho/yii2-term-management/tree/master/src/functions/core.php)
+[Core](https://github.com/thienhungho/yii2-comment-management/tree/master/src/functions/core.php)
 
 Constant
 ------------
 
-[Core](https://github.com/thienhungho/yii2-term-management/tree/master/src/const/core.php)
+[Core](https://github.com/thienhungho/yii2-comment-management/tree/master/src/const/core.php)
