@@ -2,7 +2,6 @@
 
 namespace thienhungho\CommentManagement\modules\CommentBase;
 
-use Yii;
 use \thienhungho\CommentManagement\modules\CommentBase\base\Comment as BaseComment;
 
 /**

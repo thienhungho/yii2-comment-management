@@ -118,10 +118,10 @@ class Comment extends \yii\db\ActiveRecord
 
     /**
      * @inheritdoc
-     * @return \thienhungho\CommentManagement\modules\CommentBase\CommentQuery the active query used by this AR class.
+     * @return \thienhungho\CommentManagement\modules\CommentBase\query\CommentQuery the active query used by this AR class.
      */
     public static function find()
     {
-        return new \thienhungho\CommentManagement\modules\CommentBase\CommentQuery(get_called_class());
+        return new \thienhungho\CommentManagement\modules\CommentBase\query\CommentQuery(get_called_class());
     }
 }

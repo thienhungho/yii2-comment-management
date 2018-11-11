@@ -78,6 +78,11 @@ Functions
 
 [Core](https://github.com/thienhungho/yii2-comment-management/tree/master/src/functions/core.php)
 
+Models
+------------
+
+[Comment](https://github.com/thienhungho/yii2-comment-management/tree/master/src/models/Comment.php)
+
 Constant
 ------------
 

@@ -2,7 +2,6 @@
 
 namespace thienhungho\CommentManagement\modules\CommentManage\search;
 
-use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use thienhungho\CommentManagement\modules\CommentBase\Comment;

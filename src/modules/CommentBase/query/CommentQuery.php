@@ -1,6 +1,6 @@
 <?php
 
-namespace thienhungho\CommentManagement\modules\CommentBase;
+namespace thienhungho\CommentManagement\modules\CommentBase\query;
 
 /**
  * This is the ActiveQuery class for [[Comment]].
