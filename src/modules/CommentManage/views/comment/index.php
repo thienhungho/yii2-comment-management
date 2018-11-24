@@ -91,7 +91,7 @@ $this->registerJs($search);
                     }
                 },
                 'filterType'          => GridView::FILTER_SELECT2,
-                'filter'              => \yii\helpers\ArrayHelper::map(\common\models\User::find()->asArray()->all(), 'id', 'username'),
+                'filter'              => \yii\helpers\ArrayHelper::map(\thienhungho\UserManagement\models\User::find()->asArray()->all(), 'id', 'username'),
                 'filterWidgetOptions' => [
                     'pluginOptions' => ['allowClear' => true],
                 ],

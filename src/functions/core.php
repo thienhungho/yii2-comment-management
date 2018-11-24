@@ -35,7 +35,7 @@ function count_all_comment_of_obj($type, $obj_type, $obj_id, $status = 'public')
  * @param int $limit
  * @param string $data_type
  *
- * @return array|\common\modules\comments\Comment[]|\cmsbase\modules\PostBase\query\Comment[]
+ * @return array|\thienhungho\CommentManagement\models\Comment[]|\cmsbase\modules\PostBase\query\Comment[]
  */
 function get_all_comment_of_obj($type, $obj_type, $obj_id, $status = STATUS_PUBLIC, $limit = -1, $data_type = DATA_TYPE_ARRAY)
 {
@@ -56,7 +56,7 @@ function get_all_comment_of_obj($type, $obj_type, $obj_id, $status = STATUS_PUBL
  * @param $obj_id
  * @param string $status
  *
- * @return \common\modules\comments\CommentQuery
+ * @return \thienhungho\CommentManagement\models\CommentQuery
  */
 function query_all_comment($type, $obj_type, $obj_id, $status = STATUS_PUBLIC)
 {

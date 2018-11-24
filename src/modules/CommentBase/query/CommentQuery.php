@@ -7,7 +7,7 @@ namespace thienhungho\CommentManagement\modules\CommentBase\query;
  *
  * @see Comment
  */
-class CommentQuery extends \yii\db\ActiveQuery
+class CommentQuery extends \thienhungho\ActiveQuery\models\ActiveQuery
 {
     /*public function active()
     {

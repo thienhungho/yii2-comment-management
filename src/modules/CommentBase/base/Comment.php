@@ -2,7 +2,7 @@
 
 namespace thienhungho\CommentManagement\modules\CommentBase\base;
 
-use common\models\User;
+use thienhungho\UserManagement\models\User;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 
